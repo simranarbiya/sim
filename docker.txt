@@ -1,0 +1,46 @@
+docker ps -a
+docker ps -a -q
+docker ps -l
+docer ps -n    ex: docker ps -n3
+docker ls
+docker run -it ubuntu bin/bash
+docker run -it --name containername ubuntu bin/bash
+docker run -it --name containernmae -h hostname ubuntu bin/bash
+docker run -it --name container usernmae/imagename
+docker run -it -v volumename:/volumename ubuntu bin/bash
+docker volume create volumename
+docker volume rm volumename
+docker start containername or id
+docker start $(docker ps -a -q)
+docker attach containername or id 
+docker stop container name or id
+docker stop  $(docker ps -a -q)
+docker restart container namw or id
+docker restart $(docker ps -a -q)
+hostname
+hostname -i
+uname -a
+uname -r
+exit
+docker images
+docker images ls
+docker rmi image name
+docker rmi $ (docker ps -a -q)
+docker rm containername or id
+docker rm $ (docker p -a -q)
+docker rm -f containername or id
+docker rm -f $ (docker ps -q)
+docker exec -it containername ps -a
+cntrl + p q to come out the container without stop
+cntrl + d to stop the container
+docker rename oldname newname
+docker update --cpu="2" containername or id
+ ( -m2g and --cpu-"2" )
+docker inspect containername or id
+docker build -t username/imagename .
+docker push usernmae/imagename
+
+
+
+
+ 
