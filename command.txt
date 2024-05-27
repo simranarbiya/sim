@@ -1,0 +1,33 @@
+git version
+git add filename
+git commit -m"mesage"file name
+git push
+git log 
+git log filename
+git show
+git show commit id
+git add .
+git commit -m "message"
+git commit -a m"message"file name
+git diff filename
+git diff --staged filename
+git checkout commit id
+git checkout main
+git mv oldname new name
+git restore filenmae
+git restore --staged filename
+git branch -r
+git branch branch name 
+git push origin branch name
+git checkout main
+git checkout branchname
+git clone -b branchname http://            .git
+git branch -d branchname
+git push origin -d branchname
+git pull 
+git fetch
+git merge
+git blame
+git revert commitId
+
+
