@@ -1,0 +1,15 @@
+1) kubectl get nodes                    => to check nodes are ready or not
+2) kubectl apply -f filename            => to execute the yaml file and create a pod
+exampl:kubectl apply -f pod.yaml        => it will create a pod.yamil file from the yaml file
+3) kubectl get pods                     => show how many pods in the cluster
+4) kubectl get pods -o wide             => to see container present in the pod or more information about pod
+5) kubectl discribe pod podname         => it will show more information about pod (container,IPaddres,lsable & etc)
+6) kubectl exec -it podname /bin/bash         => login into the pod
+7) kubectl exec -it --containername /bin/bash => login into the container
+8) curl https://IP:port   => curl is hit like a browser&it will run the code if the code is running application is goodexample : curl https://10.44.0.1:80
+9) kubectl delete pod podname           => to delete a pod
+example : kubectl delete pod nginx-pod
+10)exit ============================> for exit
+
+
+Deployment path for nginx in k8s :   /user/share/nginx/html/
